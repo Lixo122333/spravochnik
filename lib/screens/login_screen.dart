@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_testapp/user_list_screen.dart';
+import 'package:flutter_testapp/screens/user_list_screen.dart';
 import 'package:flutter_testapp/api_service.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
