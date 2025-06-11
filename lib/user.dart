@@ -22,4 +22,6 @@ class User {
       avatar: json['avatar'],
     );
   }
+
+  get status => null;
 }

@@ -43,10 +43,10 @@ class _LoginScreenState extends State<LoginScreen> {
 
     try {
       // ignore: unused_local_variable
-      final token = await ApiService.login(
-        _emailController.text,
-        _passwordController.text,
-      );
+      // final token = await ApiService.login(
+      //   _emailController.text,
+      //   _passwordController.text,
+      // );
 
       final prefs = await SharedPreferences.getInstance();
       if (_rememberMe) {
